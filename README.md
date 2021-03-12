@@ -1,3 +1,5 @@
+![Screenshot](dragon.png)
+
 # covidnews
 news about the covid pandemic
 
