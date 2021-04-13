@@ -1,4 +1,3 @@
-/* -------------- CORES -------------- */
 .body{
     margin: 0;
 
@@ -14,7 +13,7 @@
     position:fixed;
     top: 0;
     opacity: 1;
-    
+    z-index: 99999;
 }
 
 .imagem_menu img{
@@ -45,6 +44,16 @@
     margin-top: 2%;
     justify-content: center;
 
+}
+
+.cotainerNoticias{
+    opacity: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 970px;
+    transition-property: opacity,transform;
 }
 
 .inicio, .covid-19_botao, .impactos, .perguntas, .contatos{
@@ -110,7 +119,6 @@ a:link, a:visited, a:hover, a:active{
     text-align: center;
 }
 .main_h1, .p_1{
-    padding-left: 250px;
     font-style: arial;
 }
 
@@ -118,6 +126,7 @@ a:link, a:visited, a:hover, a:active{
     padding-top: 25px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
+    text-align: center;
 }
 
 .p_0{
@@ -127,7 +136,6 @@ a:link, a:visited, a:hover, a:active{
     text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
     font-size: 15px;
     line-height: 30px;
-    padding-left: 250px;
 }
 .p_1{
     font-family: 'Open Sans',Arial,sans-serif;
@@ -140,49 +148,76 @@ a:link, a:visited, a:hover, a:active{
 
 p{
     margin: 0;
-    padding-left: 250px;
 }
 
 .linha{
     margin-top: 1%;
-    margin-left: 60%;
     margin-bottom: 5%;
-    width: 5%;
+    width: 3%;
     background-color: #00adb5;
     height: 2px;
+    align-items: center;
 }
 
 .main_h2{
-    padding-left: 270px;
+    text-align: center;
     font-size: 20px;
 }
 
 ul{
-    padding-left: 600px;
+    list-style-position: inside;
+    text-align: center;
 }
 li{
-    padding-right: 300px;
+
 }
 
 .second_h2{
-    padding-left: 270px;
+    text-align: center;
     font-size: 20px;
 }
 
 .noticias {
     width:100%;
     background:#ebebeb;
-    height: 500px;
+    height: 160px;
+    
+    
 }
 
-.box_1{
-    margin-left: 40px;
-    padding-top: 1%;
+
+
+.texto_noticias{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background:#ebebeb;
+}
+
+.texto_1, .texto_2, .texto_3{
+    font-size: 9px;
+}
+
+.imagem_noticias{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#ebebeb;
+    width: 100%;
+}
+
+.paragrafo_noticias{
     height: 200px;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ebebeb;
 }
 
-.duracao{
-    margin-left: 240px;
+.paragrafo_1, .paragrafo_2, .paragrafo_3{
+    width: 30%;
 }
 
 
@@ -191,9 +226,64 @@ li{
 
 
 
+/* ÁREA REFERENE AO RODAPÉ DA PÁGINA */
+
+footer{
+	width: 100%;
+	height: 150px;
+	color: white;
+}
+
+.bolinha{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
 
 
-/* -------------- PÁGINA HOME -------------- */
+.fa-facebook-f, .fa-instagram, .fa-youtube{font-size: 24px;}
+
+.icones{display: flex; justify-content: center;}
+
+.bg-pri{background-color: #313942;}
+.bg-sec{background-color: #01adb5 ;}
+.bg-fundo{background-color: #343434;}
+
+.text-pri{color: #313942;}
+.text-sec{color: #01adb5;}
+.text-fundo{color: #343434;}
+
+.texto_footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: space-around;  
+    font-size: 16px;
+}  
+
+.texto_footer2{
+    padding-top: 15px;
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-content: space-around;
+ 
+}
+
+.texto_footer3{
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    align-content: space-around;
+}
 
 
-/* -------------- PÁGINA INFORMAÇÕES -------------- */
+
+
