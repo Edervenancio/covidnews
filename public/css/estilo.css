@@ -44,6 +44,7 @@
     margin-top: 2%;
     justify-content: center;
 
+
 }
 
 .cotainerNoticias{
@@ -220,6 +221,34 @@ li{
     width: 30%;
 }
 
+.texto_video{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background: #ebebeb;
+    width: 100%;
+}
+
+
+.linha_video{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #ebebeb; 
+}
+
+
+
+.video{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#ebebeb;
+    padding-bottom: 5px;
+    height: 450px;
+
+}
 
 
 
